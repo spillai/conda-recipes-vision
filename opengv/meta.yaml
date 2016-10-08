@@ -1,0 +1,22 @@
+package:
+    name: opengv
+    version: 1.0
+
+source:
+    git_url: https://github.com/laurentkneip/opengv.git
+    git_tag: master
+    
+build:
+    number: 0
+
+requirements:
+    build:
+        - cmake
+#        - eigen3
+    run:
+        - cmake
+#        - eigen3
+
+about:
+    home: http://laurentkneip.github.io/opengv/
+    license: BSD
