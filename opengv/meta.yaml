@@ -16,7 +16,6 @@ requirements:
         - python
 
     run:
-        - cmake
         - numpy
         - python
 
