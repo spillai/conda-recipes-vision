@@ -12,10 +12,13 @@ build:
 requirements:
     build:
         - cmake
-#        - eigen3
+        - numpy
+        - python
+
     run:
         - cmake
-#        - eigen3
+        - numpy
+        - python
 
 about:
     home: http://laurentkneip.github.io/opengv/
