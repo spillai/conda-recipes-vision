@@ -8,11 +8,11 @@ fi
 
 mkdir build
 cd build
-cmake                                                               \
+cmake ..                                                              \
     -DCMAKE_INSTALL_PREFIX=${PREFIX}                                \
     -DBUILD_PYTHON=ON                                               \
     -DBUILD_SHARED_LIBS=ON                                          \
     -DINSTALL_OPENGV=ON                                             \
-    ..
+
 make -j $CPU_COUNT
 make install

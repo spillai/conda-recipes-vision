@@ -1,0 +1,15 @@
+package:
+  name: eigen
+  version: 3.2.7
+
+source:
+  fn: 3.2.7.tar.bz2
+  url: http://bitbucket.org/eigen/eigen/get/3.2.7.tar.bz2
+
+requirements:
+  build:
+    - cmake
+  
+about:
+  home: http://eigen.tuxfamily.org/
+  license: MPL2
