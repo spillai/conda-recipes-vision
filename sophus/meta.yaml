@@ -1,0 +1,18 @@
+# LCM
+package:
+    name: sophus
+    version: 0.1
+
+source:
+    git_url: https://github.com/strasdat/Sophus.git
+    git_branch: master
+      
+requirements:
+    build:
+        - cmake
+    run:
+        - cmake
+
+about:
+    home: https://github.com/strasdat/Sophus.git
+    license: GPL
