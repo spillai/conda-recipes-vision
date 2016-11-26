@@ -1,5 +1,5 @@
 echo "--------------------------------------------------------------"
-echo "Activating pygtsam: $CONDA_PREFIX"
+echo "Activating pyopengv: $CONDA_PREFIX"
 export _PYOPENGV_PYTHONPATH_BACKUP=$PYTHONPATH
 export _PYOPENGV_LD_LIBRARY_PATH_BACKUP=$LD_LIBRARY_PATH
 export PYTHONPATH=$PYTHONPATH:$CONDA_PREFIX/lib
