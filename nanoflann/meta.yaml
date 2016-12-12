@@ -1,0 +1,22 @@
+package:
+    name: nanoflann
+    version: 1.2.2
+
+source:
+    git_url: https://github.com/jlblancoc/nanoflann
+    git_tag: master
+    
+build:
+    number: 0
+
+requirements:
+    build:
+        - cmake
+        # - eigen3
+        
+    run:
+      #
+      
+about:
+    home: https://github.com/jlblancoc/nanoflann
+    license: BSD-2-Clause
